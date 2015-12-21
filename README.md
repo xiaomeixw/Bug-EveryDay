@@ -52,7 +52,26 @@ has no public methods called onEvent
 
     EventBus.getDefault().register(this);
     
-但是没有类似onEventMainThread()方法    
+但是没有类似onEventMainThread()方法;
+
+
+2.onEventMainThread这样的方法的参数你要么没有要么就是错误的.
+
+解决方案很简单:
+
+EventBus post()方法的类是不需要EventBus.getDefault().register(this)这样的说明的,它和otto不太相同.
+
+同时注意:onEventMainThread()的参数
+
+    public void onEventMainThread(ProcessDataEvent data) {
+        String msg = "onEventMainThread收到了消息：" +data.getTotalSteps();
+        Toast.makeText(this, msg, Toast.LENGTH_LONG).show();
+    }
+
+
+
+
+
 
 
 
