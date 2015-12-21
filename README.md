@@ -2,7 +2,7 @@
 
 ### Describe:
 
-findViewById(R.id.gotoSecond).setOnClickListener(new View.OnClickListener() {
+    findViewById(R.id.gotoSecond).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(MainActivity.this, SecondActivity.class));
@@ -16,7 +16,7 @@ findViewById(R.id.gotoSecond).setOnClickListener(new View.OnClickListener() {
  
 ### How To solove
 
-findViewById(R.id.gotoSecond).setOnClickListener(new View.OnClickListener() {
+    findViewById(R.id.gotoSecond).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(MainActivity.this, SecondActivity.class));
