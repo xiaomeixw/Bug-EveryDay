@@ -44,6 +44,22 @@ MainActivity post an event to SecondActivity :
 
 
 
+##2.de.greenrobot.event.EventBusException: Subscriber class com.xxx.xxx.MainActivity 
+has no public methods called onEvent
+
+产生问题的解决方案有两个方面:
+1.该MainActivity中你使用了
+
+    EventBus.getDefault().register(this);
+    
+但是没有类似onEventMainThread()方法    
+
+
+
+
+
+
+
 
 
 
