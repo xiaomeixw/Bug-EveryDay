@@ -1,3 +1,6 @@
+#2015-12-21
+
+
 ##1.12-21 18:49:44.927  20426-20426/sabria.demo.tinybus D/Event﹕ No subscribers registered for event class de.greenrobot.event.NoSubscriberEvent
 
 ### Describe:
@@ -44,8 +47,7 @@ MainActivity post an event to SecondActivity :
 
 
 
-##2.de.greenrobot.event.EventBusException: Subscriber class com.xxx.xxx.MainActivity 
-has no public methods called onEvent
+##2.de.greenrobot.event.EventBusException: Subscriber class com.xxx.xxx.MainActivity has no public methods called onEvent
 
 产生问题的解决方案有两个方面:
 1.该MainActivity中你使用了
