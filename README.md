@@ -2,6 +2,8 @@
 
 ### Describe:
 
+MainActivity post SecondActivity an event:
+
     findViewById(R.id.gotoSecond).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
