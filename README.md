@@ -1,6 +1,3 @@
-# Bug-EveryDay
-As an Android Developer,most of  daily time is still spent with bug...so...bug...bug...bug...everyday!
-
 ##1.12-21 18:49:44.927  20426-20426/sabria.demo.tinybus D/Event﹕ No subscribers registered for event class de.greenrobot.event.NoSubscriberEvent
 
 ### Describe:
