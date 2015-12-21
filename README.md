@@ -14,7 +14,7 @@
         
         
  
-### How To solove
+### How To solve
 
     findViewById(R.id.gotoSecond).setOnClickListener(new View.OnClickListener() {
             @Override
